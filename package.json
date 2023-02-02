@@ -1,0 +1,32 @@
+{
+  "name": "tinyapp",
+  "version": "2.0.0",
+  "description": "Node/Express URL shortening service",
+  "main": "express_server.js",
+  "scripts": {
+    "start": "node express_server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ty2k/tinyapp.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "JavaScript"
+  ],
+  "author": "Tyler Krys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ty2k/tinyapp/issues"
+  },
+  "homepage": "https://github.com/ty2k/tinyapp#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-session": "^1.4.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
